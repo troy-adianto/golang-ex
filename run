@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "Before running application"
 export PORT=8081
+env
 exec /usr/libexec/s2i/run
